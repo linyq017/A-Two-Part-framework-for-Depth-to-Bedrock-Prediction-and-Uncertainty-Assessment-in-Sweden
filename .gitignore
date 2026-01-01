@@ -1,0 +1,22 @@
+# System files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Data and Outputs (Don't upload these!)
+data/
+results/
+output/
+*.tif
+*.csv
+*.log
+
+# Large Models
+models/*.pkl
+models/*.joblib
+*.joblib
+*.pkl
+
+# Environments
+.env
+venv/
