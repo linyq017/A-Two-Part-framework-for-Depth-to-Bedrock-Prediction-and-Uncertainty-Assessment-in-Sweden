@@ -474,14 +474,12 @@ def main():
     print("STARTING TWO-PART MODEL WORKFLOW")
     print("="*70)
     print(f"\nParameters:")
-    print(f"  Data Type: {args.data_type}")
     print(f"  Subsample: {args.subsample:.1%}")
     print(f"  Binary Trials: {args.binary_trials}")
     print(f"  QRF Trials: {args.qrf_trials}")
     print(f"  Threshold: {args.threshold}")
     
     results = run_two_part_workflow(
-        data_type=args.data_type,
         subsample_frac=args.subsample,
         n_binary_trials=args.binary_trials,
         n_qrf_trials=args.qrf_trials,
